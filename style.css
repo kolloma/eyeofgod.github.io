@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'San Francisco';
+    src: url('https://applesanfrancisco.com/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://dailystorm.ru/media/images/2020/11/19/b14e5d47-6e32-4749-914a-3677040b9a4d.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.link-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Белый цвет с прозрачностью 0.1 */
+    padding: 15px; /* Уменьшение внутреннего отступа для контейнера */
+    border-radius: 8px; /* Закругление углов контейнера */
+}
+
+a {
+    font-size: 36px; /* Увеличение размера шрифта до 36 пикселей */
+    color: #000000; /* Черный цвет текста */
+    text-decoration: none;
+    font-weight: 900; /* Максимальная толщина шрифта */
+    letter-spacing: 1px; /* Расстояние между буквами */
+}
+
+a:hover {
+    text-decoration: underline;
+}
